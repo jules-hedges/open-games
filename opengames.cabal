@@ -1,0 +1,24 @@
+name:                opengames
+version:             0.1.0.0
+synopsis:            Haskell library for open games
+description:         Please see README.md
+homepage:            https://github.com/jules-hedges/open-games
+license:             GPL-3
+license-file:        LICENSE
+author:              Jules Hedges
+maintainer:          Jules Hedges <j.hedges@qmul.ac.uk>
+copyright:           2016 Jules Hedges
+category:            Open games
+build-type:          Simple
+-- extra-source-files:
+cabal-version:       >=1.10
+
+library
+  hs-source-dirs:      src
+  exposed-modules:     OpenGames.Combinators
+  build-depends:       base >= 4.7 && < 5
+  default-language:    Haskell2010
+
+source-repository head
+  type:     git
+  location: https://github.com/jules-hedges/open-games
